@@ -1,0 +1,154 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 0 0 0;
+    text-align: center;
+    
+}
+:root{
+    --mainColor: rgb(255, 255, 255);
+    --subColor: rgb(51, 49, 49);
+
+}
+nav{
+    width: 100%;
+}
+header{
+    background-color: var(--subColor);
+    padding: 0 80px 0 80px;
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 1087px;
+}
+header h1 {
+    float: left;
+}
+ul{
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    padding: 0 0 0 900px;
+}
+ul li{
+    float: left;
+    display: inline;
+    list-style: none;
+    
+    margin: auto;
+
+}
+ul li a{
+    display: block;
+    height: 40px;
+    width: 60px;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+a:hover {
+    color:  rgb(214, 134, 13);
+}
+  
+  /* selected link */
+a:active {
+    color:  rgb(214, 134, 13);
+    background-color: rgb(124, 119, 119);
+    
+}
+#select{
+    color:  rgb(214, 134, 13);
+    background-color: rgb(124, 119, 119);
+}
+#hero{
+    background-image: url(image/back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%; 
+    text-align: center;  
+    color: var(--mainColor); 
+    margin: auto;
+}
+#middle {
+    display: flex;
+    height: 290px;
+}
+span {
+    color: rgb(206, 130, 15);
+}
+#hero a{
+    display: block;
+    text-decoration: none;
+    background-color: var(--subColor);
+    color: var(--mainColor);
+    height: 30px; 
+    width: 160px;
+    margin: auto;
+    text-align: center;
+    padding-top: 6px;
+}
+.leftDiv {
+    width: calc(100% / 2);
+    padding: auto;
+
+}
+.leftDiv img{
+    object-fit: cover;
+    width: 100%;
+    height: 290px;
+}
+.rightDiv {
+    display: block;
+    object-fit: cover;
+    width: calc(100% / 2);
+    background-color: var(--subColor);
+    height: 290px;
+    width: 50%;
+}
+#middle div h3{
+    text-transform: capitalize;
+    font-size: x-large;
+    text-align: center;
+    color: var(--mainColor);
+}
+#middle div p{
+    text-align: center;
+    white-space: 20px;
+    padding: 0 30px 0 30px;
+    color: var(--mainColor);
+}
+#middle div a{
+    display: block;
+    text-decoration: none;
+    background-color: var(--mainColor);
+    color:  var(--subColor);
+    border: var(--mainColor);
+    height: 30px; 
+    width: 120px;
+    margin: auto;
+    text-align: center;
+    padding-top: 6px;
+}
+#last{
+    display: flex;
+}
+#location{
+    width: calc(100% / 3);
+    height: 220px;
+}
+#meals{
+    width: calc(100% / 3);
+    height: 220px;
+    background-color: rgb(206, 130, 15) ;
+}
+i{
+    font-size: 5em;
+    
+}
+footer{
+    text-align: center;
+    background-color: var(--subColor);
+    color: white; 
+}

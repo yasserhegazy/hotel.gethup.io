@@ -1,0 +1,109 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+:root{
+    --mainColor: rgb(255, 255, 255);
+    --subColor: rgb(51, 49, 49);
+
+}
+nav{
+    width: 100%;
+}
+header{
+    background-color: var(--subColor);
+    padding: 0 80px 0 80px;
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 1087px;
+}
+nav{
+    width: 100%;
+}
+header h1 {
+    float: left;
+}
+ul{
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    padding: 0 0 0 900px;
+}
+ul li{
+    float: left;
+    display: inline;
+    list-style: none;
+    
+    margin: auto;
+
+}
+ul li a{
+    display: block;
+    height: 40px;
+    width: 60px;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+a:hover {
+    color:  rgb(214, 134, 13);
+}
+  
+  /* selected link */
+a:active {
+    color:  rgb(214, 134, 13);
+    background-color: rgb(124, 119, 119);
+    
+}
+#select{
+    color:  rgb(214, 134, 13);
+    background-color: rgb(124, 119, 119);
+}
+span{
+    color: rgb(185, 129, 44);
+    font-weight: bolder;
+    padding-left: 40px;
+}
+div{
+    padding-left: 40px;     
+}
+div input{
+    height: 20px;
+    width: 95%;
+}
+textarea{
+    height: 150px;
+    width: 95%;
+}
+#main p{
+    text-indent: 40px;
+}
+#button{
+    display: block;
+    color: white;
+    background-color: rgb(41, 38, 38);
+    height: 30px; 
+    width: 120px; 
+    margin-left: 38px;
+}
+#information{
+    display: flex;
+}
+#information div{
+    width: calc(100% / 3);
+    height: 200px;
+    background-color: var(--subColor);
+    color: var(--mainColor);
+}
+i{
+    font-size: 5em;
+    
+}
+footer{
+    text-align: center;
+    background-color: var(--mainColor);
+    color: var(--subColor); 
+}
